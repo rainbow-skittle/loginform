@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <link rel="stylesheet" href="style.css" >
+</head>
+<body>
+    <header>
+        <div class="heading">
+        <div>
+        <h2>LOGO</h2>
+        </div>
+        <div class="nav">
+        <nav class="navbar">
+            <a href="#">Home</a>
+            <a href="#">Blog</a>
+            <a href="#">Services</a>
+            <a href="#">About</a>
+        </nav>
+       
+        </div>
+        <div class="submit">
+            <button class="sign-in" type="submit">Sign in</button>
+            <button class="sign-up" type="submit">Sign up</button>   
+        </div>
+        <div class="nav-menu">
+            <ion-icon name="menu"></ion-icon>
+        </div>
+        </div>
+    </header>
+    <div class="page">
+    <div class="loginpage">
+    <form>
+    <div class="account">
+    <p>Don't have an account?</p>
+    <div>
+        <a id="areg" href="#">Sign Up</a>
+    </div>
+    </div>
+    <div class="log">
+        <h2>Login</h2>
+    </div>
+    <div class="username">
+        <div class="userlabel">
+        <span><ion-icon name="person-outline"></ion-icon></span>
+        </div>
+        <div >
+        <input type="email" placeholder="Username or Email" required>
+        </div>
+    </div>
+    <div class="username">
+        <div class="userlabel">
+        <span><ion-icon name="lock-closed-outline"></ion-icon></span>
+        </div>
+        <div>
+        <input type="password" placeholder="password" required>
+        </div>
+    </div>
+    <div class="login-btn">
+        <button type="submit">Sign in</button>
+    </div>
+    <div class="remem">
+        <label><input type="checkbox" required>Remember Me</label>
+        <div>
+            <a href="#">Forgot password?</a>
+        </div>
+    </div>
+    </form>
+    </div>
+
+
+    
+    <div class="regpage hidden"  >
+        <form>
+        <div class="account">
+        <p>Have an account?</p>
+        <div>
+            <a id="alogin" href="#">Login</a>
+        </div>
+        </div>
+        <div class="log">
+            <h2>Sign Up</h2>
+        </div>
+
+        <div class="fullname">
+            <div class="fname">
+                <div class="fname-label">
+                    <span><ion-icon name="person-outline"></ion-icon></span>
+                     
+                </div>
+                <div>
+                    <input type="username" placeholder="Firstname" required>
+                </div>
+            </div>
+            <div class="lname">
+                <div class="lname-label">
+                    <span><ion-icon name="person-outline"></ion-icon></span>
+                
+              </div>
+              <div>
+                  <input type="username" placeholder="Lastname"   required>
+              </div>
+            </div>
+        </div>
+
+
+
+        <div class="username">
+            <div class="userlabel">
+            <span><ion-icon name="mail-outline"></ion-icon></span>
+        
+            </div>
+            <div >
+            <input type="email" placeholder="Email">
+            </div>
+        </div>
+        <div class="username">
+            <div class="userlabel">
+            <span><ion-icon name="lock-closed-outline"></ion-icon></span>
+            
+            </div>
+            <div>
+            <input type="password" placeholder="Password">
+            </div>
+        </div>
+        <div class="login-btn">
+            <button type="submit">Register</button>
+        </div>
+        <div class="remem">
+            <label><input type="checkbox" required>Remember Me</label>
+            <div>
+                <a href="#">Terms & conditions</a>
+            </div>
+        </div>
+        </form>
+        </div>
+        </div>
+        <div class="nav-resp hidden-screen" >
+            <div class="nav-links"><a href="#">Home</a></div>
+            <div class="nav-links"><a href="#">Blog</a></div>
+            <div class="nav-links" ><a href="#">Services</a></div>
+            <div class="nav-links"><a href="#">About</a></div>
+        </div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="script.js" defer></script>
+</body>
+</html>
